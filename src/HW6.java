@@ -8,7 +8,7 @@
 //Добавьте в класс Skeleton поле для хранения количества стрел и методы доступа к этому полю.
 //Переопределите метод printInfo() в классе Skeleton.
 //В методе main создайте и заполните данными два экземпляра Skeleton, а затем выведите всю информацию о скелетах.
-public class Main {
+public class HW6 {
     public static void main(String[] args) {
         weapon bossWeapon = new weapon(WeaponType.FIREARMS, "AK-47");
         Boss boss = new Boss("boss", 100, bossWeapon);
